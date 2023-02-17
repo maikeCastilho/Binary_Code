@@ -1,25 +1,27 @@
 body{
     background-color: rgb(66, 219, 212);
-    margin-top: 150px;
+    margin-top: 110px;
 }
 
-.container-sm{
-    width: 500px;
+.col-md-7{
+    max-width: 500px;
     background-color: rgb(255, 255, 255);
     height: 300px;
     border-radius: 13px;
     padding: 30px;
-    box-shadow: 5px 8px 20px rgb(61, 61, 61); 
+    box-shadow: 5px 8px 20px rgb(61, 61, 61);
+    /* margin: 40px; */
+    /* max-width: 350px; */
 }
 
 #res{
     word-wrap: break-word;
-    
 }
 
 
 #to{
     color: black;
+ 
 }
 
 h1{
@@ -30,4 +32,6 @@ h1{
     font-size: 70px;
     color: aliceblue;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
+

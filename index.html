@@ -17,21 +17,25 @@
     <h1 id="tittle">
         <div id="to">To</div>Binary
     </h1>
-    <div class="container-sm">
 
-
+    <form name="frm" class="col-md-7">
 
         <div class="mb-3">
 
             <label for="exampleFormControlInput1" max-length="9" type="text" class="form-label">Valor a ser
                 convertido:</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" onchange="converter(this.value)">
+            <input type="text" class="form-control" id="exampleFormControlInput1" onchange="converter(this.value)">
         </div>
 
         <div class="mb-3">
-            <h2 id="res">0</h2>
+            <h2 name="result" id="res">0</h2>
+            
         </div>
-    </div>
+
+    </form>
+
+  
+
 
     <script src="app.js"></script>
 </body>

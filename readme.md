@@ -1,0 +1,1 @@
+Converte números decimais para binário.
